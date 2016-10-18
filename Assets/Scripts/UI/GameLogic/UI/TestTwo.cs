@@ -1,0 +1,63 @@
+
+using UnityEngine;
+using System.Collections;
+using UnityEngine.UI;
+using Need.Mx;
+
+public class TestTwo : BaseUI
+{
+    #region 
+    private TestTwoModulecs twoModule;
+    private GameObject parent;
+    private Button btn;
+    #endregion
+   
+	#region implemented abstract members of BaseUI
+	public override EnumUIType GetUIType ()
+	{
+		return EnumUIType.TestTwo;
+	}
+	#endregion
+
+	// Use this for initialization
+	void Start ()
+	{
+        parent = UIManager.Instance.UIRootObj;
+		btn = transform.Find ("Button").GetComponent<Button> ();
+		btn.onClick.AddListener (OnClickBtn);
+	}
+
+//	protected override void OnAwake ()
+//	{
+//		MessageCenter.Instance.AddListener("AutoUpdateGold", UpdateGold);
+//		base.OnAwake ();
+//	}
+//	
+//	protected override void OnRelease ()
+//	{
+//		MessageCenter.Instance.RemoveListener("AutoUpdateGold", UpdateGold);
+//		base.OnRelease ();
+//	}
+//	
+//	private void UpdateGold(Message message)
+//	{
+//		int gold = (int) message["gold"];
+//		Debug.Log("TestTwo UpdateGold : " + gold);
+//	}
+	
+	private void OnClickBtn ()
+	{
+		UIManager.Instance.OpenUICloseOthers(EnumUIType.TestOne, parent);
+//		GameObject go = Instantiate (Resources.Load<GameObject> ("Prefabs/TestUIOne"));
+//		TestOne to = go.GetComponent<TestOne> ();
+//		if (null == to)
+//			to = go.AddComponent<TestOne> ();
+//		Close ();
+	}
+	
+	private void Close ()
+	{
+		Destroy (gameObject);
+	}
+}
+

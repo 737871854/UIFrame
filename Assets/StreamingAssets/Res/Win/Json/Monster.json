@@ -1,0 +1,860 @@
+[
+  {
+    "BirthSound": [
+      0.0
+    ], 
+    "Desc": "小丑鱼", 
+    "DieEffet": [
+      0.0
+    ], 
+    "DieSound": [
+      "1500", 
+      "SFX_Voice_FireMonster01", 
+      "SFX_Voice_FireMonster02", 
+      "SFX_Voice_FireMonster03"
+    ], 
+    "Effect": [
+      0.0
+    ], 
+    "HitEffect": [
+      "Succeed_Catch_Effect", 
+      "ShotEffectPoint", 
+      "1", 
+      "3"
+    ], 
+    "Id": 11001, 
+    "IdleEffect": [
+      0.0
+    ], 
+    "Index": 1, 
+    "IsRotate": 0, 
+    "MonsterType": 1, 
+    "MonsterValue": 20, 
+    "Radius": 0.0, 
+    "ScaleSize": 3.0, 
+    "ShapeName": "ClownFish", 
+    "Speed": 0.3, 
+    "StandAction": 0, 
+    "StruggleEffect": [
+      0.0
+    ]
+  }, 
+  {
+    "BirthSound": [
+      0.0
+    ], 
+    "Desc": "鳗鱼", 
+    "DieEffet": [
+      0.0
+    ], 
+    "DieSound": [
+      "1500", 
+      "SFX_Voice_FireMonster01", 
+      "SFX_Voice_FireMonster02", 
+      "SFX_Voice_FireMonster04"
+    ], 
+    "Effect": [
+      0.0
+    ], 
+    "HitEffect": [
+      "Succeed_Catch_Effect", 
+      "ShotEffectPoint", 
+      "1", 
+      "3"
+    ], 
+    "Id": 11002, 
+    "IdleEffect": [
+      0.0
+    ], 
+    "Index": 2, 
+    "IsRotate": 0, 
+    "MonsterType": 1, 
+    "MonsterValue": 40, 
+    "Radius": 0.0, 
+    "ScaleSize": 30.0, 
+    "ShapeName": "Eel", 
+    "Speed": 0.3, 
+    "StandAction": 0, 
+    "StruggleEffect": [
+      "Struggle_Eelec_Effect", 
+      "StruggleEffectPoint", 
+      "1", 
+      "2"
+    ]
+  }, 
+  {
+    "BirthSound": [
+      0.0
+    ], 
+    "Desc": "乌贼", 
+    "DieEffet": [
+      0.0
+    ], 
+    "DieSound": [
+      "1500", 
+      "SFX_Voice_FireMonster01", 
+      "SFX_Voice_FireMonster02", 
+      "SFX_Voice_FireMonster05"
+    ], 
+    "Effect": [
+      0.0
+    ], 
+    "HitEffect": [
+      "Succeed_Catch_Effect", 
+      "ShotEffectPoint", 
+      "1", 
+      "3"
+    ], 
+    "Id": 11003, 
+    "IdleEffect": [
+      0.0
+    ], 
+    "Index": 3, 
+    "IsRotate": 0, 
+    "MonsterType": 1, 
+    "MonsterValue": 35, 
+    "Radius": 0.0, 
+    "ScaleSize": 6.0, 
+    "ShapeName": "InkFish", 
+    "Speed": 0.2, 
+    "StandAction": 0, 
+    "StruggleEffect": [
+      "Struggle_Ink_Effect", 
+      "StruggleEffectPoint", 
+      "1", 
+      "2"
+    ]
+  }, 
+  {
+    "BirthSound": [
+      0.0
+    ], 
+    "Desc": "灯笼鱼", 
+    "DieEffet": [
+      0.0
+    ], 
+    "DieSound": [
+      "1500", 
+      "SFX_Voice_FireMonster01", 
+      "SFX_Voice_FireMonster02", 
+      "SFX_Voice_FireMonster06"
+    ], 
+    "Effect": [
+      "Born_Lantern_Effect", 
+      "BornEffectPoint", 
+      "-1", 
+      "0"
+    ], 
+    "HitEffect": [
+      "Succeed_Catch_Effect", 
+      "ShotEffectPoint", 
+      "1", 
+      "3"
+    ], 
+    "Id": 11004, 
+    "IdleEffect": [
+      0.0
+    ], 
+    "Index": 4, 
+    "IsRotate": 0, 
+    "MonsterType": 1, 
+    "MonsterValue": 60, 
+    "Radius": 0.0, 
+    "ScaleSize": 5.0, 
+    "ShapeName": "LanternFish", 
+    "Speed": 0.4, 
+    "StandAction": 0, 
+    "StruggleEffect": [
+      0.0
+    ]
+  }, 
+  {
+    "BirthSound": [
+      0.0
+    ], 
+    "Desc": "魔鬼鱼", 
+    "DieEffet": [
+      0.0
+    ], 
+    "DieSound": [
+      "1500", 
+      "SFX_Voice_FireMonster01", 
+      "SFX_Voice_FireMonster02", 
+      "SFX_Voice_FireMonster07"
+    ], 
+    "Effect": [
+      0.0
+    ], 
+    "HitEffect": [
+      "Succeed_Catch_Effect", 
+      "ShotEffectPoint", 
+      "1", 
+      "3"
+    ], 
+    "Id": 11005, 
+    "IdleEffect": [
+      0.0
+    ], 
+    "Index": 5, 
+    "IsRotate": 0, 
+    "MonsterType": 1, 
+    "MonsterValue": 70, 
+    "Radius": 0.0, 
+    "ScaleSize": 20.0, 
+    "ShapeName": "Mobula", 
+    "Speed": 0.4, 
+    "StandAction": 0, 
+    "StruggleEffect": [
+      0.0
+    ]
+  }, 
+  {
+    "BirthSound": [
+      0.0
+    ], 
+    "Desc": "河豚", 
+    "DieEffet": [
+      0.0
+    ], 
+    "DieSound": [
+      "1500", 
+      "SFX_Voice_FireMonster01", 
+      "SFX_Voice_FireMonster02", 
+      "SFX_Voice_FireMonster08"
+    ], 
+    "Effect": [
+      0.0
+    ], 
+    "HitEffect": [
+      "Succeed_Catch_Effect", 
+      "ShotEffectPoint", 
+      "1", 
+      "3"
+    ], 
+    "Id": 11006, 
+    "IdleEffect": [
+      "Idle_Puffer_Effect", 
+      "IdleEffectPoint", 
+      "-1", 
+      "1"
+    ], 
+    "Index": 6, 
+    "IsRotate": 0, 
+    "MonsterType": 1, 
+    "MonsterValue": 80, 
+    "Radius": 0.0, 
+    "ScaleSize": 5.0, 
+    "ShapeName": "PufferFish", 
+    "Speed": 0.4, 
+    "StandAction": 0, 
+    "StruggleEffect": [
+      0.0
+    ]
+  }, 
+  {
+    "BirthSound": [
+      0.0
+    ], 
+    "Desc": "海马", 
+    "DieEffet": [
+      0.0
+    ], 
+    "DieSound": [
+      "1500", 
+      "SFX_Voice_FireMonster01", 
+      "SFX_Voice_FireMonster02", 
+      "SFX_Voice_FireMonster09"
+    ], 
+    "Effect": [
+      0.0
+    ], 
+    "HitEffect": [
+      "Succeed_Catch_Effect", 
+      "ShotEffectPoint", 
+      "1", 
+      "3"
+    ], 
+    "Id": 11007, 
+    "IdleEffect": [
+      "Idle_SeaHorse_Effect", 
+      "IdleEffectPoint", 
+      "-1", 
+      "1"
+    ], 
+    "Index": 7, 
+    "IsRotate": 0, 
+    "MonsterType": 1, 
+    "MonsterValue": 35, 
+    "Radius": 0.0, 
+    "ScaleSize": 30.0, 
+    "ShapeName": "SeaHorse", 
+    "Speed": 0.3, 
+    "StandAction": 0, 
+    "StruggleEffect": [
+      0.0
+    ]
+  }, 
+  {
+    "BirthSound": [
+      0.0
+    ], 
+    "Desc": "海星", 
+    "DieEffet": [
+      0.0
+    ], 
+    "DieSound": [
+      "1500", 
+      "SFX_Voice_FireMonster01", 
+      "SFX_Voice_FireMonster02", 
+      "SFX_Voice_FireMonster10"
+    ], 
+    "Effect": [
+      0.0
+    ], 
+    "HitEffect": [
+      "Succeed_Catch_Effect", 
+      "ShotEffectPoint", 
+      "1", 
+      "3"
+    ], 
+    "Id": 11008, 
+    "IdleEffect": [
+      "Idle_SeaStar_Effect", 
+      "IdleEffectPoint", 
+      "-1", 
+      "1"
+    ], 
+    "Index": 8, 
+    "IsRotate": 0, 
+    "MonsterType": 1, 
+    "MonsterValue": 20, 
+    "Radius": 0.0, 
+    "ScaleSize": 10.0, 
+    "ShapeName": "SeaStar", 
+    "Speed": 0.1, 
+    "StandAction": 0, 
+    "StruggleEffect": [
+      0.0
+    ]
+  }, 
+  {
+    "BirthSound": [
+      0.0
+    ], 
+    "Desc": "海龟", 
+    "DieEffet": [
+      0.0
+    ], 
+    "DieSound": [
+      "1500", 
+      "SFX_Voice_FireMonster01", 
+      "SFX_Voice_FireMonster02", 
+      "SFX_Voice_FireMonster11"
+    ], 
+    "Effect": [
+      0.0
+    ], 
+    "HitEffect": [
+      "Succeed_Catch_Effect", 
+      "ShotEffectPoint", 
+      "1", 
+      "3"
+    ], 
+    "Id": 11009, 
+    "IdleEffect": [
+      "Idle_SeaTurtle_Effect", 
+      "IdleEffectPoint", 
+      "-1", 
+      "1"
+    ], 
+    "Index": 9, 
+    "IsRotate": 0, 
+    "MonsterType": 1, 
+    "MonsterValue": 45, 
+    "Radius": 0.0, 
+    "ScaleSize": 25.0, 
+    "ShapeName": "SeaTurtle", 
+    "Speed": 0.5, 
+    "StandAction": 0, 
+    "StruggleEffect": [
+      0.0
+    ]
+  }, 
+  {
+    "BirthSound": [
+      0.0
+    ], 
+    "Desc": "鲨鱼", 
+    "DieEffet": [
+      0.0
+    ], 
+    "DieSound": [
+      "1500", 
+      "SFX_Voice_FireMonster01", 
+      "SFX_Voice_FireMonster02", 
+      "SFX_Voice_FireMonster12"
+    ], 
+    "Effect": [
+      0.0
+    ], 
+    "HitEffect": [
+      "Succeed_Catch_Effect", 
+      "ShotEffectPoint", 
+      "1", 
+      "3"
+    ], 
+    "Id": 11010, 
+    "IdleEffect": [
+      0.0
+    ], 
+    "Index": 10, 
+    "IsRotate": 0, 
+    "MonsterType": 1, 
+    "MonsterValue": 90, 
+    "Radius": 0.0, 
+    "ScaleSize": 30.0, 
+    "ShapeName": "Shark", 
+    "Speed": 0.7, 
+    "StandAction": 0, 
+    "StruggleEffect": [
+      "Struggle_Shark_Effect", 
+      "StruggleEffectPoint", 
+      "1", 
+      "2"
+    ]
+  }, 
+  {
+    "BirthSound": [
+      0.0
+    ], 
+    "Desc": "海贝", 
+    "DieEffet": [
+      0.0
+    ], 
+    "DieSound": [
+      "1500", 
+      "SFX_Voice_FireMonster01", 
+      "SFX_Voice_FireMonster02", 
+      "SFX_Voice_FireMonster13"
+    ], 
+    "Effect": [
+      "Born_Shell_Effect", 
+      "BornEffectPoint", 
+      "-1", 
+      "0"
+    ], 
+    "HitEffect": [
+      "Succeed_Catch_Effect", 
+      "ShotEffectPoint", 
+      "1", 
+      "3"
+    ], 
+    "Id": 11011, 
+    "IdleEffect": [
+      0.0
+    ], 
+    "Index": 11, 
+    "IsRotate": 0, 
+    "MonsterType": 1, 
+    "MonsterValue": 50, 
+    "Radius": 0.0, 
+    "ScaleSize": 25.0, 
+    "ShapeName": "Shell", 
+    "Speed": 0.01, 
+    "StandAction": 0, 
+    "StruggleEffect": [
+      0.0
+    ]
+  }, 
+  {
+    "BirthSound": [
+      0.0
+    ], 
+    "Desc": "翻车鱼", 
+    "DieEffet": [
+      0.0
+    ], 
+    "DieSound": [
+      "1500", 
+      "SFX_Voice_FireMonster01", 
+      "SFX_Voice_FireMonster02", 
+      "SFX_Voice_FireMonster14"
+    ], 
+    "Effect": [
+      0.0
+    ], 
+    "HitEffect": [
+      "Succeed_Catch_Effect", 
+      "ShotEffectPoint", 
+      "1", 
+      "3"
+    ], 
+    "Id": 11012, 
+    "IdleEffect": [
+      "Idle_Sunfish_Effect", 
+      "IdleEffectPoint", 
+      "-1", 
+      "1"
+    ], 
+    "Index": 12, 
+    "IsRotate": 0, 
+    "MonsterType": 1, 
+    "MonsterValue": 60, 
+    "Radius": 0.0, 
+    "ScaleSize": 6.0, 
+    "ShapeName": "SunFish", 
+    "Speed": 0.4, 
+    "StandAction": 0, 
+    "StruggleEffect": [
+      0.0
+    ]
+  }, 
+  {
+    "BirthSound": [
+      0.0
+    ], 
+    "Desc": "宝箱", 
+    "DieEffet": [
+      0.0
+    ], 
+    "DieSound": [
+      "1500", 
+      "SFX_Voice_FireMonster01", 
+      "SFX_Voice_FireMonster02", 
+      "SFX_Voice_FireMonster14"
+    ], 
+    "Effect": [
+      "Born_Case_Effect", 
+      "BornEffectPoint", 
+      "-1", 
+      "0"
+    ], 
+    "HitEffect": [
+      0.0
+    ], 
+    "Id": 11013, 
+    "IdleEffect": [
+      0.0
+    ], 
+    "Index": 13, 
+    "IsRotate": 0, 
+    "MonsterType": 2, 
+    "MonsterValue": 0, 
+    "Radius": 0.0, 
+    "ScaleSize": 20.0, 
+    "ShapeName": "Case", 
+    "Speed": 0.0, 
+    "StandAction": 0, 
+    "StruggleEffect": [
+      "Struggle_Case_Effect", 
+      "StruggleEffectPoint", 
+      "1", 
+      "2"
+    ]
+  }, 
+  {
+    "BirthSound": [
+      0.0
+    ], 
+    "Desc": "圆形子弹", 
+    "DieEffet": [
+      "Die_Bullet_Effect", 
+      "DieEffectPoint", 
+      "0.2", 
+      "4"
+    ], 
+    "DieSound": [
+      "1500", 
+      "SFX_Voice_FireMonster01", 
+      "SFX_Voice_FireMonster02", 
+      "SFX_Voice_FireMonster03"
+    ], 
+    "Effect": [
+      "Born_Bullet_Effect", 
+      "BornEffectPoint", 
+      "-1", 
+      "0"
+    ], 
+    "HitEffect": [
+      0.0
+    ], 
+    "Id": 11014, 
+    "IdleEffect": [
+      0.0
+    ], 
+    "Index": 14, 
+    "IsRotate": 0, 
+    "MonsterType": 3, 
+    "MonsterValue": 0, 
+    "Radius": 4.0, 
+    "ScaleSize": 1.0, 
+    "ShapeName": "BulletBall", 
+    "Speed": 0.1, 
+    "StandAction": 0, 
+    "StruggleEffect": [
+      0.0
+    ]
+  }, 
+  {
+    "BirthSound": [
+      0.0
+    ], 
+    "Desc": "多弹状态", 
+    "DieEffet": [
+      0.0
+    ], 
+    "DieSound": [
+      0.0
+    ], 
+    "Effect": [
+      "Born_Multi_Effect", 
+      "BornEffectPoint", 
+      "-1", 
+      "0"
+    ], 
+    "HitEffect": [
+      0.0
+    ], 
+    "Id": 11015, 
+    "IdleEffect": [
+      0.0
+    ], 
+    "Index": 15, 
+    "IsRotate": 0, 
+    "MonsterType": 4, 
+    "MonsterValue": 0, 
+    "Radius": 0.0, 
+    "ScaleSize": 1.0, 
+    "ShapeName": "MultiState", 
+    "Speed": 0.0, 
+    "StandAction": 0, 
+    "StruggleEffect": [
+      0.0
+    ]
+  }, 
+  {
+    "BirthSound": [
+      0.0
+    ], 
+    "Desc": "加速电池", 
+    "DieEffet": [
+      0.0
+    ], 
+    "DieSound": [
+      0.0
+    ], 
+    "Effect": [
+      "Born_Accle_Effect", 
+      "BornEffectPoint", 
+      "-1", 
+      "0"
+    ], 
+    "HitEffect": [
+      0.0
+    ], 
+    "Id": 11016, 
+    "IdleEffect": [
+      0.0
+    ], 
+    "Index": 16, 
+    "IsRotate": 0, 
+    "MonsterType": 4, 
+    "MonsterValue": 0, 
+    "Radius": 0.0, 
+    "ScaleSize": 1.0, 
+    "ShapeName": "AccleState", 
+    "Speed": 0.0, 
+    "StandAction": 0, 
+    "StruggleEffect": [
+      0.0
+    ]
+  }, 
+  {
+    "BirthSound": [
+      0.0
+    ], 
+    "Desc": "能量块", 
+    "DieEffet": [
+      0.0
+    ], 
+    "DieSound": [
+      0.0
+    ], 
+    "Effect": [
+      "Born_Engery_Effect", 
+      "BornEffectPoint", 
+      "-1", 
+      "0"
+    ], 
+    "HitEffect": [
+      0.0
+    ], 
+    "Id": 11017, 
+    "IdleEffect": [
+      0.0
+    ], 
+    "Index": 17, 
+    "IsRotate": 0, 
+    "MonsterType": 4, 
+    "MonsterValue": 0, 
+    "Radius": 0.0, 
+    "ScaleSize": 1.0, 
+    "ShapeName": "EngeryState", 
+    "Speed": 0.0, 
+    "StandAction": 0, 
+    "StruggleEffect": [
+      0.0
+    ]
+  }, 
+  {
+    "BirthSound": [
+      0.0
+    ], 
+    "Desc": "障碍物", 
+    "DieEffet": [
+      "Die_Bomb_Effect", 
+      "DieEffectPoint", 
+      "0.2", 
+      "4"
+    ], 
+    "DieSound": [
+      0.0
+    ], 
+    "Effect": [
+      "Born_Bomb_Effect", 
+      "BornEffectPoint", 
+      "-1", 
+      "0"
+    ], 
+    "HitEffect": [
+      0.0
+    ], 
+    "Id": 11018, 
+    "IdleEffect": [
+      0.0
+    ], 
+    "Index": 18, 
+    "IsRotate": 0, 
+    "MonsterType": 4, 
+    "MonsterValue": 0, 
+    "Radius": 0.0, 
+    "ScaleSize": 1.0, 
+    "ShapeName": "Bomb", 
+    "Speed": 0.0, 
+    "StandAction": 0, 
+    "StruggleEffect": [
+      0.0
+    ]
+  }, 
+  {
+    "BirthSound": [
+      0.0
+    ], 
+    "Desc": "火山", 
+    "DieEffet": [
+      0.0
+    ], 
+    "DieSound": [
+      0.0
+    ], 
+    "Effect": [
+      "Born_Volcano_Effect", 
+      "BornEffectPoint", 
+      "-1", 
+      "0"
+    ], 
+    "HitEffect": [
+      0.0
+    ], 
+    "Id": 11019, 
+    "IdleEffect": [
+      0.0
+    ], 
+    "Index": 19, 
+    "IsRotate": 0, 
+    "MonsterType": 4, 
+    "MonsterValue": 0, 
+    "Radius": 0.0, 
+    "ScaleSize": 1.0, 
+    "ShapeName": "Volcano", 
+    "Speed": 0.0, 
+    "StandAction": 0, 
+    "StruggleEffect": [
+      0.0
+    ]
+  }, 
+  {
+    "BirthSound": [
+      0.0
+    ], 
+    "Desc": "贝壳0", 
+    "DieEffet": [
+      0.0
+    ], 
+    "DieSound": [
+      0.0
+    ], 
+    "Effect": [
+      "Born_Effect_Shell0", 
+      "BornEffectPoint", 
+      "-1", 
+      "0"
+    ], 
+    "HitEffect": [
+      0.0
+    ], 
+    "Id": 11020, 
+    "IdleEffect": [
+      0.0
+    ], 
+    "Index": 20, 
+    "IsRotate": 1, 
+    "MonsterType": 4, 
+    "MonsterValue": 0, 
+    "Radius": 0.0, 
+    "ScaleSize": 0.5, 
+    "ShapeName": "BeiKe0", 
+    "Speed": 0.0, 
+    "StandAction": 0, 
+    "StruggleEffect": [
+      0.0
+    ]
+  }, 
+  {
+    "BirthSound": [
+      0.0
+    ], 
+    "Desc": "贝壳1", 
+    "DieEffet": [
+      0.0
+    ], 
+    "DieSound": [
+      0.0
+    ], 
+    "Effect": [
+      "Born_Effect_Shell0", 
+      "BornEffectPoint", 
+      "-1", 
+      "0"
+    ], 
+    "HitEffect": [
+      0.0
+    ], 
+    "Id": 11021, 
+    "IdleEffect": [
+      0.0
+    ], 
+    "Index": 20, 
+    "IsRotate": 1, 
+    "MonsterType": 4, 
+    "MonsterValue": 0, 
+    "Radius": 0.0, 
+    "ScaleSize": 0.5, 
+    "ShapeName": "BeiKe1", 
+    "Speed": 0.0, 
+    "StandAction": 0, 
+    "StruggleEffect": [
+      0.0
+    ]
+  }
+]
